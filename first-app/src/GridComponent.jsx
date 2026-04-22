@@ -20,7 +20,7 @@ const GridComponent = () => {
                         className={`${item.color} p-6 rounded-xl shadow-lg cursor-pointer text-white`}
                     >
                         <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                        <p className="opacity-90">{item.description}</p>
+                        
                     </div>
                 ))}
             </div>
